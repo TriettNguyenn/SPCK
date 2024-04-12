@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('../img/rW8p0O.jpg');
+    margin: 0 auto;
+}
+.item{
+    margin-left: 20px;
+    
+}
+
+.button{
+    padding: 20px;
+}
+.button1{
+    justify-content: space-between;
+    font-size: medium;
+    padding: 10px;
+    color: black;
+    background-color: yellow;
+    
+    
+}
+.button2{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: medium;
+    padding: 10px;
+    color: black;
+    background-color: yellow;
+}
+#html{
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    background-color: green;
+    justify-content: space-between;
+}
+.detail{
+    display: flex ;
+    padding: 20px;
+   
+    color: aliceblue;
+}
+.adver1 img{
+    width: 100%;
+    height: 700px;
+}
+.dcrip1{
+    margin-top: 20px ;
+    padding: 10px;
+    background-color: green;
+    text-align: center;
+    color: yellowgreen;
+}
+.product{
+    width: 400px;
+    height: auto;
+    background-color: bisque;
+    border-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 50px;
+    
+    
+}
+.product img{
+    width: 400px;
+    height: 300px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.textpd1{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.textpd1 button{
+    width: 100px;
+    height: 20px;
+    margin-bottom: 20px;
+}
+.line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    
+}
+.fbimg img{
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+    
+}
+.footer{
+    display: flex;
+    background-color: green;
+   margin-top: 30px;
+   padding: 10px;
+}
+.contact{
+    display: flex;
+    margin-left: 750px;
+}
+.timer{
+    font-size: 50px;
+    margin-left: 620px;
+    margin-top: 50px;
+    
+}
+.sketdule{
+   border-radius: 25px;
+}
+.img{
+    margin-left: 80px;
+}
