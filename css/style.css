@@ -20,6 +20,7 @@
     border-radius: 5px;
     border: 1px solid black;
     cursor: pointer;
+    border-radius: 20px;
 }
 
 .cursor{
@@ -28,11 +29,13 @@
 
 .header{
     height: 64px;
-    background-color: blue;
+    background-color: rgb(16, 16, 73);
     line-height: 64px;
     text-align: center;
     color: #ffff;
     font-size: 30px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .error{
