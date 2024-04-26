@@ -1,0 +1,35 @@
+{
+  "User": [
+    {
+      "id": 1,
+      "email": "bolun",
+      "password": 123,
+      "roll": 2 
+    },
+    {
+      "id": 2,
+      "email": "cayden",
+      "password": 123
+    }
+  ],
+  "Products": [
+    {
+      "name": "",
+      "price": "",
+      "description": "",
+      "id": 2
+    },
+    {
+      "name": "aaaa",
+      "price": "12121",
+      "description": "bbbbb",
+      "id": 3
+    },
+    {
+      "name": "ok",
+      "price": "12",
+      "description": "basketball",
+      "id": 4
+    }
+  ]
+}
