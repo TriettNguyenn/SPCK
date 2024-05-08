@@ -1,0 +1,15 @@
+body{
+    background-image: url(https://tse1.mm.bing.net/th?id=OIP.YKY34Pn2W7DQl09Olj9qaQHaGM&pid=Api&P=0&h=180);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    background-blend-mode: overlay;
+    color: white;
+}
+.text{
+    text-align: center;
+    margin: 30px;
+}
+
+
