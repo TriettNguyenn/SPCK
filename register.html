@@ -32,23 +32,26 @@
 
                 <!-- Style 3 input cuối trước -->
                 <div class="input-wrapper">
-                    <input type="text" name="email" placeholder="email...">
+                    <input type="Email" name="Email" placeholder="email...">
                     <div class="error" id="email-error"></div>
                 </div>
                 <div class="input-wrapper">
-                    <input type="password" name="password" placeholder="password...">
+                    <input type="Pass" name="Pass" placeholder="password...">
                     <div class="error" id="password-error"></div>
                 </div>
                 <div class="input-wrapper">
-                    <input type="password" name="confirmPassword" placeholder="confirm password...">
+                    <input type="Pass" name="confirmPassword" placeholder="confirm password...">
                     <div class="error" id="confirm-password-error"></div>
                 </div>
 
                 <div class="form-action">
                     <span class="cursor" id="redirect-to-login">
-                        Already have an account? Login
+                       <p>Already have an account? <a href="login.html">Login</a></p>
                     </span>
-                    <button class="btn" type="submit">Register</button>
+                    <button class="btn" type="submit" onclick="sign_in()">Register</button>
+                </div>
+                <div class="image">
+                    <img src="image/Screenshot 2024-04-26 140503.png" alt="">
                 </div>
             </form>
         </div>
@@ -58,6 +61,8 @@
     <script type="module" src="./js/firebase.js"></script>
     <script type="module" src="./js/register.js"></script>
     <script src="./js/controller.js"></script>
+    <script src="js/user.js"></script>
+    
 </body>
 
 </html>

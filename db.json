@@ -1,17 +1,4 @@
 {
-  "User": [
-    {
-      "id": 1,
-      "email": "bolun",
-      "password": 123,
-      "roll": 2 
-    },
-    {
-      "id": 2,
-      "email": "cayden",
-      "password": 123
-    }
-  ],
   "Products": [
     {
       "name": "",
