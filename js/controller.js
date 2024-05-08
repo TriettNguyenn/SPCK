@@ -83,3 +83,26 @@ controller.register = (dataSignUp) => {
     }
   }
 };
+
+import { auth } from "./firebase.js";
+import {
+  signOut,
+  onAuthStateChanged,
+} from "https://www.gstatic.com/firebasejs/10.11.0/firebase-app.js";
+
+window.handleSignOut = () => signOut(auth);
+
+onAuthStateChanged(auth, (user) => {
+  if (!user) {
+    document.querySelector("#action-section").innerHTML = /*html*/ `
+    <a href="./login.html" class="btn btn-primary">Đăng nhập</a>
+  `;
+  } else {
+    document.querySelector("#action-section").innerHTML = /*html*/ `
+    <img style="width: 30px; height: 30px; border-radius: 999px; display: inline" src="https://api.dicebear.com/8.x/initials/svg?seed=${encodeURIComponent(
+      user.displayName
+    )}" />
+    <button style="display: inline-block" class="btn btn-primary" onclick="window.handleSignOut()">Đăng xuất</button>
+  `;
+  }
+});

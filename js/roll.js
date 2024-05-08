@@ -1,3 +1,4 @@
+/*
 const user = JSON.parse(localStorage.getItem('user'));
 console.log(user);
 if (user) {
@@ -17,3 +18,4 @@ if (user.role != 2) {
     const admin = document.querySelector('.admin');
     admin.innerHTML = `<p>Bạn không phải là admin</p>`
 } 
+*/
